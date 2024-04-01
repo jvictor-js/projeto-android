@@ -44,15 +44,21 @@ h1 {
     font-family: "Bebas Neue" , sans-serif;
     font-weight: 600;
     font-style: normal;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.433);
 }
 
 header > p {
+    margin: auto;
+    color: var(--cor9);
+    font-size: 1.2em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.408);
+    max-width: 600px;
     padding-top: 20px;
+    padding-bottom: 65px;
 }
 
 nav {
     text-align: left;
-    padding-top: 75px;
 }
 
 nav > a {
@@ -129,6 +135,7 @@ aside > p {
 }
 
 aside > ul {
+    padding: 15px;
     list-style: inside;
     list-style-type: '\2714';
     columns: 2;
