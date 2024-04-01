@@ -6,7 +6,8 @@
 }
 
 * {
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
   }
   
 body {
@@ -128,6 +129,7 @@ aside > p {
 }
 
 aside > ul {
+    list-style: inside;
     list-style-type: '\2714';
     columns: 2;
 }
