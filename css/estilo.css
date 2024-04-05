@@ -8,7 +8,7 @@
 * {
     margin: 0px;
     padding: 0px;
-  }
+}
   
 body {
     background-color: var(--cor10);
@@ -70,6 +70,7 @@ nav > a {
 
 nav > a:hover {
     background-color: var(--cor5);
+    color: rgb(13, 21, 14);
     transition-duration: .5s;
 }
 
